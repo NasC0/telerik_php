@@ -8,3 +8,4 @@
 $myVar['username'] = 'vance';
 echo $myVar['username'];
 echo 'Hello world!';
+echo 'how do you like them apples';
