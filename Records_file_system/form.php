@@ -13,7 +13,6 @@ if($_POST){
     $name = str_replace('!', '', $name);
 
     $price = trim($_POST['price']);
-    $price = str_replace('!', '', $price);
 
     $date = trim($_POST['date']);
 
@@ -36,7 +35,7 @@ if($_POST){
 
     //Checks if the date is empty.
     //If not empty, gets the HTML parsed date, converts it to date variable
-    //and sets it in the format day-month-year.
+    //and sets it in the day-month-year format.
     //If empty, sets it to the current date.
     if(!empty($date)) {
         $date = strtotime($date);
