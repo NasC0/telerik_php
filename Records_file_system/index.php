@@ -6,17 +6,32 @@
 <?php
     $pageTitle = "Индекс";
     include "include" .DIRECTORY_SEPARATOR. "header.php";
+
+    $type = 0;  //Keeps the type, default is 0 - Всички
+
+    //If a filter is set, gets the value and saves it in $type
+    if(isset($_POST['type'])) {
+        $type = $_POST['type'];
+    }
 ?>
 
 <a href="http://localhost/telerik_php/Records_file_system/form.php">Добави entry</a>
 <form method="POST">
     <select name="type">
-        //Iterates the Types in constants.php
-        //Used to set the filter options
-        //Includes the Всички filter
+        <!--Iterates the Types in constants.php-->
+        <!--Used to set the filter options-->
+        <!--Includes the Всички filter-->
         <?php
         foreach ($types as $key => $val) {
-            echo '<option value="'.$key.'">'.$val.'</option>';
+
+            if($key == $type) {
+                $selected = 'selected';
+            }
+            else {
+                $selected = '';
+            }
+
+            echo '<option value="'.$key.'" ' . $selected . '>'.$val.'</option>';
         }
         ?>
     </select>
@@ -39,13 +54,6 @@
         $result = file('data.txt');
         //totalSum - keeps the total spent sum
         $totalSum = 0.0;
-        $type = 0;  //Keeps the type, default is 0 - Всички
-
-
-        //If a filter is set, gets the value and saves it into type
-        if(isset($_POST['type'])) {
-            $type = $_POST['type'];
-        }
 
         foreach ($result as $val) {
             $split = explode('!', $val);

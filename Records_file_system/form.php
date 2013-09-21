@@ -1,5 +1,5 @@
 <!--Form.php-->
-<!--Recieves data and fills it into data.txt-->
+<!--Receives data and fills it into data.txt-->
 <!--Which is later used to display the data the user saved-->
 
 <?php
@@ -24,26 +24,34 @@ if($_POST){
         echo 'Името е много късо';
         $errorFlag = true;
     }
-    if ($price <= 0) {
+
+    if (!is_numeric($price)) {
+        echo 'Цената трябва да е число!';
+        $errorFlag = true;
+    }
+    elseif ($price <= 0.0) {
         echo 'Цената не трябва да е 0!';
         $errorFlag = true;
     }
-    //Checks if the date is empty
-    //If empty, initialises it to the current date
+
+    //Checks if the date is empty.
+    //If not empty, gets the HTML parsed date, converts it to date variable
+    //and sets it in the format day-month-year.
+    //If empty, sets it to the current date.
     if(!empty($date)) {
         $date = strtotime($date);
         $date = date('d.m.Y', $date);
     }
+    else {
+        $date = date('d.m.Y');
+    }
+    //Basically useless since the keys are in an array visualised through HTML <select> form.
     if(!array_key_exists($selectedType, $types)) {
         echo 'Ключа не съществува в типовете!';
         $errorFlag = true;
     }
 
     if(!$errorFlag) {
-        if(empty($date)) {
-            $date = date('d.m.Y');
-        }
-
         $result = $date . '!' . $name . '!' . $price . '!' . $selectedType . "\n";
         file_put_contents('data.txt', $result, FILE_APPEND);
     }
