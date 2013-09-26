@@ -24,13 +24,11 @@
         <?php
         foreach ($types as $key => $val) {
 
+            //$selected displays the correct option after filtering
+            $selected = '';
             if($key == $type) {
                 $selected = 'selected';
             }
-            else {
-                $selected = '';
-            }
-
             echo '<option value="'.$key.'" ' . $selected . '>'.$val.'</option>';
         }
         ?>

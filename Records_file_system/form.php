@@ -13,6 +13,9 @@ if($_POST){
     $name = str_replace('!', '', $name);
 
     $price = trim($_POST['price']);
+    //Replaces the decimal comma with decimal dot in cases
+    //where the language is not set to English
+    $price = str_replace(',', '.', $price);
 
     $date = trim($_POST['date']);
 
@@ -23,7 +26,8 @@ if($_POST){
         echo 'Името е много късо';
         $errorFlag = true;
     }
-
+    //Checks if the price is numeric
+    //If numeric, checks if it is lower or equal to 0
     if (!is_numeric($price)) {
         echo 'Цената трябва да е число!';
         $errorFlag = true;
