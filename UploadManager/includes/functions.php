@@ -1,8 +1,28 @@
 <?php
-// Function which formats the filesize accordingly.
-// Credits below
-// Snippet from PHP Share: http://www.phpshare.org
+    session_start();
 
+    // A simple function that checks if the username already exists
+    // If it does, returns True
+    // if it doesn't return false
+    function checkUsername($username) {
+        $userbasePath = 'database' . DIRECTORY_SEPARATOR . 'userbase.txt';
+        $result = false;
+        $userCredentials = file($userbasePath);
+
+        foreach ($userCredentials as $val) {
+            $columns = explode('!*/', $val);
+
+            if($username == $columns[0]) {
+                $result = true;
+            }
+        }
+
+        return $result;
+    }
+
+    // Function which formats the filesize accordingly.
+    // Credits below
+    // Snippet from PHP Share: http://www.phpshare.org
     function formatSizeUnits($bytes)
     {
         if ($bytes >= 1073741824)

@@ -1,3 +1,5 @@
+<!-- A download header which forces the download of the passed-in file  -->
+
 <?php
 session_start();
 

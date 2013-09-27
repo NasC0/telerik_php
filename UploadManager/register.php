@@ -1,3 +1,7 @@
+<!-- A simple register form
+     Implements a check for the username.
+     If it already exists, doesn't complete the registration -->
+
 <?php
 $pageTitle = "Регистрирай се";
 include 'includes' . DIRECTORY_SEPARATOR . 'header.php';
@@ -7,6 +11,8 @@ if($_SESSION['isLogged']) {
 }
 else {
     if($_POST) {
+
+        // Normalises and validates the username and the password
         $username = trim($_POST['username']);
         $username = str_replace('!*/', '', $username);
 
@@ -23,14 +29,23 @@ else {
             echo 'Паролата трябва да е поне 4 символа!';
             $errorFlag = true;
         }
+
+        // Checks if the user already exists
+        // If he doesn't, saves the user credentials to "database/userbase.txt"
+        // to be used later for user login.
         if(!$errorFlag) {
-            $input = $username . '!*/' . $pass . PHP_EOL;
-            file_put_contents('database/userbase.txt', $input, FILE_APPEND);
+            if(checkUsername($username)) {
+                echo '<p>Вече съществува потребител с това име!</p>';
+            }
+            else {
+                $input = $username . '!*/' . $pass . PHP_EOL;
+                file_put_contents('database/userbase.txt', $input, FILE_APPEND);
 
-            $userDir = 'database' . DIRECTORY_SEPARATOR . $username;
-            mkdir($userDir);
+                $userDir = 'database' . DIRECTORY_SEPARATOR . $username;
+                mkdir($userDir);
 
-            echo '<p>Регистрацията е успешна!<p>';
+                echo '<p>Регистрацията е успешна!<p>';
+            }
         }
     }
 
