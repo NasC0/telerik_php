@@ -30,8 +30,7 @@ else {
             $userDir = 'database' . DIRECTORY_SEPARATOR . $username;
             mkdir($userDir);
 
-            header('Location: index.php');
-            exit;
+            echo '<p>Регистрацията е успешна!<p>';
         }
     }
 

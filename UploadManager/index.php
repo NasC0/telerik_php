@@ -21,6 +21,9 @@
                         exit;
                     }
                 }
+                if(!$_SESSION['isLogged']) {
+                    echo '<p>Невалидно име или парола!</p>';
+                }
 
             }
             else{

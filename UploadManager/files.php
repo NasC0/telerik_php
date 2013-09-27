@@ -12,7 +12,7 @@ if($_SESSION['isLogged']) {
     else {
         echo '<table border="1">
              <thead><tr><th>Име</th><th>Размер</th></tr></thead>';
-        
+
         for($i = 2; $i < count($dirContents); $i++) {
 
             $size = filesize($userDir . DIRECTORY_SEPARATOR . $dirContents[$i]);
