@@ -27,7 +27,7 @@ if($_SESSION['isLogged']) {
     ?>
     <form method="POST" enctype="multipart/form-data">
         <div>Качи файл: <input type="file" name="upload"></div>
-        <div><input type="submit" value="Качи"> </div>
+        <div><input type="submit" value="Качи" name="submit"> </div>
     </form>
     <?php
 }
