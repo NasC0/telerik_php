@@ -18,9 +18,10 @@ if($_SESSION['isLogged']) {
              <thead><tr><th>Име</th><th>Размер</th></tr></thead>';
 
         // Iterates through the contents of the user directory
-        // Jumps over the first two entries in the array since they are not valid files
+            // Jumps over the first two entries in the array since they are not valid files
 
-        for($i = 2; $i < count($dirContents); $i++) {
+            $count = count($dirContents);
+            for($i = 2; $i < $count; $i++) {
 
             // Saves the filesize of the current file.
             $size = filesize($userDir . DIRECTORY_SEPARATOR . $dirContents[$i]);

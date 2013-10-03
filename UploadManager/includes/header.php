@@ -3,6 +3,8 @@
     mb_internal_encoding('UTF-8');
 
     include 'functions.php';
+
+    error_reporting(E_NOTICE);
 ?>
 <!doctype html>
 <html lang="en-US">

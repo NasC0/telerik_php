@@ -6,6 +6,10 @@
     $pageTitle = "Вход";
     include 'includes' . DIRECTORY_SEPARATOR . 'header.php';
 
+    if($_SESSION['isLogged']) {
+        header('Location:files.php');
+        exit();
+    }
     if(!$_SESSION['isLogged']) {
 
         if($_POST) {
@@ -27,7 +31,7 @@
                         // the user's files
                         $_SESSION['username'] = $username;
 
-                        header('Location: index.php');
+                        header('Location: files.php');
                         exit;
                     }
                 }
