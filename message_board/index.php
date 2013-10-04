@@ -10,7 +10,7 @@
             $query = "SELECT * FROM users";
             $result = mysqli_query($connection, $query);
 
-            while($row = $result -> fetch_assoc()) {
+            while($row = mysqli_fetch_assoc($result)) {
 
                 if($username == $row['username'] && $pass == $row['password']) {
                     $_SESSION['userId'] = (int) $row['user_id'];
@@ -22,7 +22,7 @@
                         $_SESSION['isAdmin'] = true;
                     }
 
-                    header('Location:index.php');
+                    header('Location:messages.php');
                     exit();
                 }
             }
