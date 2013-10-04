@@ -6,7 +6,7 @@
 $pageTitle = "Регистрирай се";
 include 'includes' . DIRECTORY_SEPARATOR . 'header.php';
 
-if($_SESSION['isLogged']) {
+if(isset($_SESSION['isLogged'])) {
     echo '<p>Already logged in as '. $_SESSION['username'] .'!</p>';
 }
 else {

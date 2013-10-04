@@ -1,10 +1,9 @@
 <?php
-    session_start();
     mb_internal_encoding('UTF-8');
 
     include 'functions.php';
 
-    error_reporting(E_NOTICE);
+    error_reporting(E_ALL);
 ?>
 <!doctype html>
 <html lang="en-US">
@@ -15,7 +14,7 @@
 <body>
 
 <?php
-    if($_SESSION['isLogged']) {
+    if(isset($_SESSION['isLogged'])) {
 
         //$userDir holds the directory for the current User
         //Used to specify where to upload files

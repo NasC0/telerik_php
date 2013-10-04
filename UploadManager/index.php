@@ -6,11 +6,7 @@
     $pageTitle = "Вход";
     include 'includes' . DIRECTORY_SEPARATOR . 'header.php';
 
-    if($_SESSION['isLogged']) {
-        header('Location:files.php');
-        exit();
-    }
-    if(!$_SESSION['isLogged']) {
+    if(!isset($_SESSION['isLogged'])) {
 
         if($_POST) {
 
@@ -52,6 +48,10 @@
             <div><input type="submit" value="Вход"></div>
         </form>
 <?php
+    }
+    if(isset($_SESSION['isLogged'])) {
+        header('Location:files.php');
+        exit();
     }
 
     include 'includes' . DIRECTORY_SEPARATOR . 'footer.php';
