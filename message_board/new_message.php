@@ -56,5 +56,6 @@
         <?php
     }
     else {
-        echo '<p>Не сте логнати в системата!</p>';
+        header('Location: index.php');
+        exi();
     }

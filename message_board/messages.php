@@ -3,12 +3,11 @@
     include 'includes' . DIRECTORY_SEPARATOR .'header.php';
 
     if(isset($_SESSION['isLogged'])) {
-        $sortOptions = array('desc'=>'Низходящо', 'asc'=>'Възходящо');
         $order = 'desc';
         $groupSort = '';
         if(isset($_GET['sortType']) || isset($_GET['group'])) {
             $type = $_GET['sortType'];
-            $group = $_GET['group'];
+            $group = (int) $_GET['group'];
         }
         ?>
             <div>
@@ -63,7 +62,7 @@
 
             echo "<div style='border:1px solid black; width:400px; margin-top:10px; padding:5px;'><p>$msgName добавено от $addedBy на $msgDate";
             echo " | Група: $groups[$group]";
-            if((int) $_SESSION['isAdmin'] == true) {
+            if($_SESSION['isAdmin'] == true) {
                 $msgId = $row['msg_id'];
                 echo ' | <a href="delete.php?msg=' . $msgId .'">Изтрий съобщението</a>';
             }
@@ -72,5 +71,6 @@
         }
     }
     else {
-        echo '<p>Не сте логнат в системата!</p>';
+        header('Location: index.php');
+        exit();
     }
