@@ -24,6 +24,10 @@
                 echo 'Полетата за парола трябва да съвпадат!';
                 $errorFlag = true;
             }
+            if(checkUsername($connection, $username)) {
+                echo 'Вече съществува потребител с това име!';
+                $errorFlag = true;
+            }
 
             if(!$errorFlag) {
                 $query = "INSERT INTO users

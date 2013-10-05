@@ -56,11 +56,11 @@
             $msgName = $row['msg_name'];
             $msgBody = $row['msg_body'];
             $msgDate = strtotime($row['msg_date']);
-            $msgDate = date('d.m.Y');
+            $msgDate = date('d.m.Y', $msgDate);
             $addedBy = $row['added_by'];
             $group = $row['group_id'];
 
-            echo "<div style='border:1px solid black; width:400px; margin-top:10px; padding:5px;'><p>$msgName добавено от $addedBy на $msgDate";
+            echo "<div style='border:1px solid #6fd03d; width:400px; margin-top:10px; padding:5px;'><p>$msgName добавено от $addedBy на $msgDate";
             echo " | Група: $groups[$group]";
             if($_SESSION['isAdmin'] == true) {
                 $msgId = $row['msg_id'];
