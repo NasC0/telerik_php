@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="052d7252-3635-48c2-9d21-5055d124f522" name="Default" comment="" />
-    <ignored path="message_board.iws" />
+    <list default="true" id="0efc143e-45b4-449c-9e4a-79e227857e9b" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\XAMPP\htdocs\telerik_php\UploadManager.rar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../message_board/includes/constants.php" afterPath="$PROJECT_DIR$/../message_board/includes/constants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../message_board/delete.php" afterPath="$PROJECT_DIR$/../message_board/delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../message_board/includes/functions.php" afterPath="$PROJECT_DIR$/../message_board/includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../message_board/index.php" afterPath="$PROJECT_DIR$/../message_board/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../message_board/message_board_database.sql" afterPath="$PROJECT_DIR$/../message_board/message_board_database.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../message_board/messages.php" afterPath="$PROJECT_DIR$/../message_board/messages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../message_board/new_message.php" afterPath="$PROJECT_DIR$/../message_board/new_message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../message_board/register.php" afterPath="$PROJECT_DIR$/../message_board/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../message_board/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../message_board/.idea/workspace.xml" />
+    </list>
+    <ignored path="book_catalog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/header.php" changelist="052d7252-3635-48c2-9d21-5055d124f522" time="1380889008366" ignored="false" />
-    <file path="/dbConfig.php" changelist="052d7252-3635-48c2-9d21-5055d124f522" time="1380871363313" ignored="false" />
-    <file path="/register.php" changelist="052d7252-3635-48c2-9d21-5055d124f522" time="1381320990956" ignored="false" />
-    <file path="/index.php" changelist="052d7252-3635-48c2-9d21-5055d124f522" time="1380892355821" ignored="false" />
-    <file path="/logout.php" changelist="052d7252-3635-48c2-9d21-5055d124f522" time="1380874387283" ignored="false" />
-    <file path="/new_message.php" changelist="052d7252-3635-48c2-9d21-5055d124f522" time="1381339089768" ignored="false" />
-    <file path="/messages.php" changelist="052d7252-3635-48c2-9d21-5055d124f522" time="1381348675806" ignored="false" />
-    <file path="/delete.php" changelist="052d7252-3635-48c2-9d21-5055d124f522" time="1380896285395" ignored="false" />
-    <file path="/constants.php" changelist="052d7252-3635-48c2-9d21-5055d124f522" time="1380889108017" ignored="false" />
-    <file path="/functions.php" changelist="052d7252-3635-48c2-9d21-5055d124f522" time="1380977003685" ignored="false" />
+    <file path="/header.php" changelist="0efc143e-45b4-449c-9e4a-79e227857e9b" time="1381635815276" ignored="false" />
+    <file path="/add_author.php" changelist="0efc143e-45b4-449c-9e4a-79e227857e9b" time="1381703135751" ignored="false" />
+    <file path="/functions.php" changelist="0efc143e-45b4-449c-9e4a-79e227857e9b" time="1381703121721" ignored="false" />
+    <file path="/Connection" changelist="0efc143e-45b4-449c-9e4a-79e227857e9b" time="1381636721972" ignored="false" />
+    <file path="/add_book.php" changelist="0efc143e-45b4-449c-9e4a-79e227857e9b" time="1381698224377" ignored="false" />
+    <file path="/index.php" changelist="0efc143e-45b4-449c-9e4a-79e227857e9b" time="1381703016063" ignored="false" />
+    <file path="/Dummy.txt" changelist="0efc143e-45b4-449c-9e4a-79e227857e9b" time="1381703385087" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,45 +37,47 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="message_board" />
+    <favorites_list name="book_catalog" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="add_author.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/add_author.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="155" selection-end="155" vertical-scroll-proportion="-3.2692308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="-7.8461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/messages.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="23" selection-start="113" selection-end="113" vertical-scroll-proportion="-2.6153846">
+            <state line="54" column="37" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.77468354">
               <folding>
-                <marker date="1381441925722" expanded="true" signature="1900:1968" placeholder="..." />
-                <marker date="1381441925722" expanded="true" signature="2281:2315" placeholder="..." />
+                <marker date="1381703137359" expanded="true" signature="622:754" placeholder="..." />
+                <marker date="1381703137359" expanded="true" signature="632:660" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register.php">
+      <file leaf-file-name="constants.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/constants.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="550" selection-end="550" vertical-scroll-proportion="-8.5">
+            <state line="1" column="0" selection-start="6" selection-end="72" vertical-scroll-proportion="-0.65384614">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="31" selection-start="1488" selection-end="1488" vertical-scroll-proportion="-36.615383">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="40" selection-start="1621" selection-end="1621" vertical-scroll-proportion="-32.692307">
+              <folding>
+                <marker date="1381703045363" expanded="true" signature="1643:1930" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,16 +85,25 @@
       <file leaf-file-name="dbConfig.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/dbConfig.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614">
+            <state line="4" column="40" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/functions.php">
+      <file leaf-file-name="add_book.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add_book.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="23" selection-start="29" selection-end="29" vertical-scroll-proportion="0.021491783">
+            <state line="34" column="0" selection-start="1274" selection-end="1274" vertical-scroll-proportion="-22.23077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,20 +116,25 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/includes/dbConfig.php" />
-        <option value="$PROJECT_DIR$/includes/footer.php" />
-        <option value="$PROJECT_DIR$/logout.php" />
-        <option value="$PROJECT_DIR$/includes/header.php" />
-        <option value="$PROJECT_DIR$/new_message.php" />
-        <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/includes/constants.php" />
-        <option value="$PROJECT_DIR$/messages.php" />
-        <option value="$PROJECT_DIR$/delete.php" />
+        <option value="[Connection] CONSOLE" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/add_book.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/functions.php" />
+        <option value="$PROJECT_DIR$/add_author.php" />
       </list>
     </option>
   </component>
@@ -121,7 +145,7 @@
     <option name="width" value="1296" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -147,87 +171,89 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="message_board" />
+              <option name="myItemId" value="book_catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="message_board" />
+              <option name="myItemId" value="book_catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="message_board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="message_board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="message_board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
+              <option name="myItemId" value="book_catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settings.deploy.options" />
+    <property name="last_opened_file_path" value="C:/Windows.old/Program Files (x86)/Git/cmd/git.exe" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="PublishConfig" serverName="Localhost" serverId="97e9ed0c-6d99-4e6e-8ba0-8a7de49a9ff1">
+  <component name="PublishConfig" serverName="Localhost" serverId="dffa3350-6d09-4dfa-b513-06dc5b5e2f8f">
     <servers>
-      <server id="25fe311c-9d0b-47e5-af6f-f708f3358b14">
+      <server id="dffa3350-6d09-4dfa-b513-06dc5b5e2f8f">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="97e9ed0c-6d99-4e6e-8ba0-8a7de49a9ff1">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="telerik_php/message_board" />
+            <mapping local="$PROJECT_DIR$" web="telerik_php\book_catalog" />
           </mappings>
         </serverdata>
       </server>
     </servers>
   </component>
-  <component name="RunManager" selected="PHPUnit.message_board">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\telerik_php\book_catalog\includes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.book_catalog">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="97e9ed0c-6d99-4e6e-8ba0-8a7de49a9ff1" server_name="Localhost">
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
       <method />
     </configuration>
-    <configuration default="false" name="message_board" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="dffa3350-6d09-4dfa-b513-06dc5b5e2f8f" server_name="Localhost">
+      <method />
+    </configuration>
+    <configuration default="false" name="book_catalog" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner directory="$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.message_board" />
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.book_catalog" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -250,26 +276,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="052d7252-3635-48c2-9d21-5055d124f522" name="Default" comment="" />
-      <created>1380836703488</created>
-      <updated>1380836703488</updated>
+      <changelist id="0efc143e-45b4-449c-9e4a-79e227857e9b" name="Default" comment="" />
+      <created>1381477584432</created>
+      <updated>1381477584432</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28606158" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28606158" sideWeight="0.6710214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -340,109 +368,120 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/delete.php">
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="59" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1381441925722" expanded="true" signature="1900:1968" placeholder="..." />
-            <marker date="1381441925722" expanded="true" signature="2281:2315" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/constants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="32" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/dbConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="96" selection-end="96" vertical-scroll-proportion="0.10745891" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="59" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="-7.8461537">
+        <state line="4" column="23" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/constants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.042983565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="113" selection-end="113" vertical-scroll-proportion="-2.6153846">
-          <folding>
-            <marker date="1381441925722" expanded="true" signature="1900:1968" placeholder="..." />
-            <marker date="1381441925722" expanded="true" signature="2281:2315" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.65384614">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/dbConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614">
+        <state line="4" column="40" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="155" selection-end="155" vertical-scroll-proportion="-3.2692308">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
+    <entry file="db://44ec2c71-29cd-4bdb-af14-7f9bd0dafff8">
+      <provider selected="true" editor-type-id="SQLConsole">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <content current-schema="test" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="550" selection-end="550" vertical-scroll-proportion="-8.5">
+        <state line="0" column="5" selection-start="5" selection-end="35" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="40" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="29" selection-end="29" vertical-scroll-proportion="0.021491783">
+        <state line="56" column="31" selection-start="1488" selection-end="1488" vertical-scroll-proportion="-36.615383">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="72" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1274" selection-end="1274" vertical-scroll-proportion="-22.23077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="40" selection-start="1621" selection-end="1621" vertical-scroll-proportion="-32.692307">
+          <folding>
+            <marker date="1381703045363" expanded="true" signature="1643:1930" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="37" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.77468354">
+          <folding>
+            <marker date="1381703137359" expanded="true" signature="622:754" placeholder="..." />
+            <marker date="1381703137359" expanded="true" signature="632:660" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

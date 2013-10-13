@@ -5,17 +5,16 @@
     if(isset($_SESSION['isLogged'])) {
         if(isset($_GET['add'])) {
             $errorFlag = false;
-            $msgTitle = trim($_GET['title']);
+            $msgTitle = mysqli_real_escape_string($connection, trim($_GET['title']));
             if(mb_strlen($msgTitle) <= 0 || mb_strlen($msgTitle) >= 50) {
                 echo '</p>Дължината на заглавието трябва да е по-голяма от 0 и по-малка от 50 символа!</p>';
                 $errorFlag = true;
             }
-            $msgBody = trim($_GET['body']);
+            $msgBody = mysqli_real_escape_string($connection, trim($_GET['body']));
             if (mb_strlen($msgBody) <= 0 || mb_strlen($msgBody) >= 250) {
                 echo '</p>Дължината на съдържанието трябва да е по-голяма от 0 и по-малка от 250 символа!</p>';
                 $errorFlag = true;
             }
-            $date = date('d.m.Y H:i:s');
             $username = $_SESSION['username'];
             $group = $_GET['group'];
 
