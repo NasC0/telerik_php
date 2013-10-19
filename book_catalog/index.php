@@ -1,11 +1,14 @@
 <?php
 $pageTitle = 'Книжен каталог';
 include 'includes' . DIRECTORY_SEPARATOR . 'header.php';
+include 'includes' . DIRECTORY_SEPARATOR . 'jscript.php';
 include 'includes' . DIRECTORY_SEPARATOR . 'constants.php';
 
+$class = 'class="hideMe"';
+
 $query = 'SELECT books.book_id, books.book_title, authors.author_id, authors.author_name from books
-                      LEFT JOIN books_authors on books.book_id = books_authors.book_id
-                      LEFT JOIN authors on books_authors.author_id = authors.author_id';
+          LEFT JOIN books_authors on books.book_id = books_authors.book_id
+          LEFT JOIN authors on books_authors.author_id = authors.author_id';
 
 $query = sortBooks($query);
 
@@ -29,6 +32,6 @@ else {
 <?php
 include 'includes' . DIRECTORY_SEPARATOR . 'sort_form.php';
 
-include 'includes' . DIRECTORY_SEPARATOR . 'table_print.php';
+include 'includes' . DIRECTORY_SEPARATOR . 'print_books.php';
 
 include 'includes' . DIRECTORY_SEPARATOR . 'footer.php';

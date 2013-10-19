@@ -4,6 +4,21 @@
     <list default="true" id="7dc3ca63-a293-4dbd-aa80-6686ac250786" name="Default" comment="" />
     <ignored path="enhanced_book_catalog.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/test.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382052402259" ignored="false" />
+    <file path="/header.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382154246570" ignored="false" />
+    <file path="/register.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382055187064" ignored="false" />
+    <file path="/login.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382056115163" ignored="false" />
+    <file path="/logout.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382055877552" ignored="false" />
+    <file path="/books.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382157516842" ignored="false" />
+    <file path="/search.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382153930281" ignored="false" />
+    <file path="/table_print.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382063466650" ignored="false" />
+    <file path="/newTest.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382083269086" ignored="false" />
+    <file path="/styles.css" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382157583853" ignored="false" />
+    <file path="/authors_books.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382171120063" ignored="false" />
+    <file path="/index.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382143373655" ignored="false" />
+    <file path="/jscript.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382084807744" ignored="false" />
+    <file path="/print_books.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382162653689" ignored="false" />
+    <file path="/user_messages.php" changelist="7dc3ca63-a293-4dbd-aa80-6686ac250786" time="1382157225171" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +41,72 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="14" selection-start="544" selection-end="544" vertical-scroll-proportion="0.27974683">
+            <state line="14" column="23" selection-start="546" selection-end="546" vertical-scroll-proportion="0.30126584">
+              <folding>
+                <element signature="e#1176#1203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="38" selection-start="832" selection-end="832" vertical-scroll-proportion="-13.076923">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="print_books.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/print_books.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="26" selection-start="672" selection-end="672" vertical-scroll-proportion="-11.769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jscript.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/jscript.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="43" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authors_books.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authors_books.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="9" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-21.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="47" selection-start="924" selection-end="924" vertical-scroll-proportion="-22.884615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="books.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/books.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="33" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-17.0">
+              <folding>
+                <marker date="1382159194027" expanded="true" signature="1548:1663" placeholder="..." />
+                <marker date="1382159194027" expanded="true" signature="1578:1663" placeholder="..." />
+                <marker date="1382159194027" expanded="true" signature="1729:1807" placeholder="..." />
+                <marker date="1382159194027" expanded="true" signature="1729:1893" placeholder="..." />
+                <marker date="1382159194027" expanded="true" signature="1729:1914" placeholder="..." />
+                <marker date="1382159194027" expanded="true" signature="1820:1893" placeholder="..." />
+                <marker date="1382159194027" expanded="true" signature="2271:2977" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,6 +117,28 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/includes/table_print.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/newTest.php" />
+        <option value="$PROJECT_DIR$/includes/printBooks.php" />
+        <option value="$PROJECT_DIR$/add_book.php" />
+        <option value="$PROJECT_DIR$/add_author.php" />
+        <option value="$PROJECT_DIR$/search.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/user_messages.php" />
+        <option value="$PROJECT_DIR$/books.php" />
+        <option value="$PROJECT_DIR$/includes/print_books.php" />
+        <option value="$PROJECT_DIR$/includes/jscript.php" />
+        <option value="$PROJECT_DIR$/authors_books.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -77,7 +178,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -96,12 +196,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enhanced_book_catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enhanced_book_catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PublishConfig" serverName="Localhost" serverId="dffa3350-6d09-4dfa-b513-06dc5b5e2f8f">
     <servers>
@@ -115,6 +231,16 @@
     </servers>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="dffa3350-6d09-4dfa-b513-06dc5b5e2f8f" server_name="Localhost">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -130,25 +256,25 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26661265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -212,10 +338,111 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/includes/table_print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="60" selection-start="242" selection-end="242" vertical-scroll-proportion="0.22106633" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="23" selection-start="3271" selection-end="3271" vertical-scroll-proportion="2.4846547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blitzer/jquery-ui-1.10.3.custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="23" selection-start="4128" selection-end="4128" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="2" selection-start="1368" selection-end="1368" vertical-scroll-proportion="-20.26923" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="2" selection-start="652" selection-end="652" vertical-scroll-proportion="-14.384615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="460" selection-end="460" vertical-scroll-proportion="-9.807693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="69" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/jscript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="43" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="19" selection-start="909" selection-end="909" vertical-scroll-proportion="0.8289308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="38" selection-start="832" selection-end="832" vertical-scroll-proportion="-13.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authors_books.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="9" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-21.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/print_books.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="672" selection-end="672" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="47" selection-start="924" selection-end="924" vertical-scroll-proportion="-22.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="33" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-17.0">
+          <folding>
+            <marker date="1382159194027" expanded="true" signature="1548:1663" placeholder="..." />
+            <marker date="1382159194027" expanded="true" signature="1578:1663" placeholder="..." />
+            <marker date="1382159194027" expanded="true" signature="1729:1807" placeholder="..." />
+            <marker date="1382159194027" expanded="true" signature="1729:1893" placeholder="..." />
+            <marker date="1382159194027" expanded="true" signature="1729:1914" placeholder="..." />
+            <marker date="1382159194027" expanded="true" signature="1820:1893" placeholder="..." />
+            <marker date="1382159194027" expanded="true" signature="2271:2977" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="544" selection-end="544" vertical-scroll-proportion="0.27974683">
-          <folding />
+        <state line="14" column="23" selection-start="546" selection-end="546" vertical-scroll-proportion="0.30126584">
+          <folding>
+            <element signature="e#1176#1203#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,7 @@
 <?php
+if(!isset($_SESSION)) {
+    session_start();
+}
 mb_internal_encoding('utf8');
 error_reporting(E_ALL);
 mb_internal_encoding('UTF-8');
@@ -9,6 +12,19 @@ if (isset($_POST['search'])) {
     header('Location: search.php?search=' . $bookTitle . '');
     exit;
 }
+if(isset($_SESSION['isLogged'])) {
+    echo 'Здравей, '. $_SESSION['username'] .'! ';
+    echo '<a href="logout.php">Изход</a>';
+    echo ' | ';
+    echo '<a href="index.php">Книги</a>';
+}
+else {
+    echo '<a href="login.php">Вход</a>';
+    echo ' | ';
+    echo '<a href="register.php">Регистрирай се</a>';
+    echo ' | ';
+    echo '<a href="index.php">Книги</a>';
+}
 ?>
 
 <!doctype html>
@@ -16,13 +32,12 @@ if (isset($_POST['search'])) {
 <head>
     <meta charset="UTF-8">
     <title><?= $pageTitle ?></title>
-    <link href="css/blitzer/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 	<script src="js/jquery-1.10.2.js"></script>
-	<script src="js/jquery-ui-1.10.3.custom.js"></script>
 </head>
 <body>
 
-<form method="POST" name="searchBook" style="position:absolute; right: 5%;">
+<form method="POST" name="searchBook" style="float: right">
     Книга: <input type="text" name="bookName">
     <input type="submit" value="Търси" name="search">
 </form>

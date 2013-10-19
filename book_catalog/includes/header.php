@@ -1,4 +1,7 @@
 <?php
+if(!isset($_SESSION)) {
+    session_start();
+}
 mb_internal_encoding('utf8');
 error_reporting(E_ALL);
 mb_internal_encoding('UTF-8');
@@ -16,10 +19,12 @@ if (isset($_POST['search'])) {
 <head>
     <meta charset="UTF-8">
     <title><?= $pageTitle ?></title>
+    <link href="css/styles.css" rel="stylesheet">
+	<script src="js/jquery-1.10.2.js"></script>
 </head>
 <body>
 
-<form method="POST" name="searchBook" style="position:absolute; right: 5%;">
+<form method="POST" name="searchBook" style="float: right">
     Книга: <input type="text" name="bookName">
     <input type="submit" value="Търси" name="search">
 </form>

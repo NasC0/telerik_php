@@ -22,10 +22,6 @@ if (isset($_GET['submit'])) {
 }
 ?>
 
-    <div style="margin-bottom: 5px;">
-        <a href="index.php">Книги</a>
-    </div>
-
     <form method="GET" name="addAuthor" style="margin-bottom: 5px;">
         <div>
             Автор: <input type="text" name="authorName">

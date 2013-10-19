@@ -7,10 +7,10 @@
     </thead>
     <tbody>
     <?php
-    foreach ($resultArray as $val) {
-        echo '<tr><td>' . $val['book_title'] . '</td><td>';
-        foreach ($val['authors'] as $key => $authorVal) {
-            echo '<a href="authors_books.php?id=' . $key . '">' . $authorVal . '</a> ';
+    foreach ($resultArray as $key => $val) {
+        echo '<tr><td><a href="books.php?bookID='. $key .'">' . $val['book_title'] . '</a></td><td>';
+        foreach ($val['authors'] as $authorKey => $authorVal) {
+            echo '<a href="authors_books.php?id=' . $authorKey . '">' . $authorVal . '</a> ';
         }
         echo '</td></tr>';
     }
