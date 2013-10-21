@@ -3,7 +3,7 @@ $pageTitle = "Книги";
 include 'includes' . DIRECTORY_SEPARATOR . 'header.php';
 
 if (isset($_GET['bookID'])) {
-    $bookID = (int) $_GET['bookID'];
+    $bookID = (int)$_GET['bookID'];
 
     $query = 'SELECT books.book_id, books.book_title, authors.author_id, authors.author_name FROM books
               LEFT JOIN books_authors ON books.book_id = books_authors.book_id
@@ -63,7 +63,10 @@ if (isset($_GET['bookID'])) {
                                 $date = date("d.m.Y H:i:s", $date);
                                 ?>
                                 <div class="messageWrap">
-                                    <div>Добавен от <a href="user_messages.php?userID=<?= $row['user_id'] ?>"><?= $row['username'] ?></a> на <?= $date ?>:</div>
+                                    <div>Добавен от <a
+                                            href="user_messages.php?userID=<?= $row['user_id'] ?>"><?= $row['username'] ?></a>
+                                        на <?= $date ?>
+                                    </div>
                                     <div><?= $row['msg_body'] ?></div>
                                 </div>
 
@@ -106,7 +109,11 @@ if (isset($_GET['bookID'])) {
                     $usersRelation = mysqli_query($connection, $query);
 
                     if ($booksRelation && $usersRelation) {
-                        header("Location: books.php?bookID=". $bookID);
+                        $query = 'UPDATE BOOKS
+                                  SET msg_count = msg_count + 1
+                                  WHERE book_id = ' . $bookID;
+                        mysqli_query($connection, $query);
+                        header("Location: books.php?bookID=" . $bookID);
                         exit;
                     }
                 }

@@ -16,12 +16,12 @@ if (isset($_POST['register'])) {
         $errorFlag = true;
     }
 
-    if(!$errorFlag) {
+    if (!$errorFlag) {
         $query = 'INSERT INTO users
                  (username, password)
-                 VALUES("'. $username .'", "'. $pass .'")';
+                 VALUES("' . $username . '", "' . $pass . '")';
         $result = mysqli_query($connection, $query);
-        if($result) {
+        if ($result) {
             echo 'Регистрацията е успешна!';
         }
         else {
@@ -31,11 +31,11 @@ if (isset($_POST['register'])) {
 }
 ?>
 
-<form method="POST" name="registerForm">
-    <div>Име: <input type="text" name="username"></div>
-    <div>Парола: <input type="password" name="pass"></div>
-    <div><input type="submit" name="register" value="Регистрирай се"></div>
-</form>
+    <form method="POST" name="registerForm">
+        <div>Име: <input type="text" name="username"></div>
+        <div>Парола: <input type="password" name="pass"></div>
+        <div><input type="submit" name="register" value="Регистрирай се"></div>
+    </form>
 
 <?php
 include 'includes' . DIRECTORY_SEPARATOR . 'footer.php';

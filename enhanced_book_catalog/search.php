@@ -10,7 +10,7 @@ if (isset($_GET['search'])) {
 
     if ($result) {
         $row = mysqli_fetch_assoc($result);
-        header('Location: books.php?bookID='. $row['book_id']);
+        header('Location: books.php?bookID=' . $row['book_id']);
         exit();
     }
 }

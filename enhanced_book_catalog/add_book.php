@@ -18,16 +18,16 @@ if (isset($_GET['submit'])) {
         if ($result) {
 
             $bookID = mysqli_insert_id($connection);
-            $errorFlag = true;
+            $errorFlag = false;
             foreach ($_GET['authors'] as $authorID) {
                 $query = 'INSERT INTO books_authors (book_id, author_id) VALUES ("' . $bookID . '", "' . $authorID . '")';
                 $result = mysqli_query($connection, $query);
                 if (!$result) {
-                    $errorFlag = false;
+                    $errorFlag = true;
                     break;
                 }
             }
-            if ($errorFlag) {
+            if (!$errorFlag) {
                 echo 'Книгата е добавена успешно! <br>';
             }
         }

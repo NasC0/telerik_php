@@ -20,4 +20,3 @@ header('Content-Transfer-Encoding: binary');
 header('Content-Length: '.filesize($file));	// provide file size
 header('Connection: close');
 readfile($file);		// push it out
-exit();

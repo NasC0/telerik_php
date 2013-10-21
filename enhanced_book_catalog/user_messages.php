@@ -10,7 +10,7 @@ if (isset($_GET['userID'])) {
               LEFT JOIN messages ON books_messages.msg_id = messages.msg_id
               LEFT JOIN users_messages ON messages.msg_id = users_messages.msg_id
               LEFT JOIN users ON users_messages.user_id = users.user_id
-              WHERE users.user_id = ' . $userID. '
+              WHERE users.user_id = ' . $userID . '
               ORDER BY msg_datetime DESC';
 
     $result = mysqli_query($connection, $query);
@@ -33,10 +33,12 @@ if (isset($_GET['userID'])) {
                             $date = strtotime($row['msg_datetime']);
                             $date = date("d.m.Y H:i:s", $date);
                             ?>
-                        <div class="messageWrap">
-                            <div>Добавен на <?= $date ?> за <a style="color: #004276;" href="books.php?bookID= <?= $row['book_id'] ?>"><?= $row['book_title'] ?></a></div>
-                            <div><?= $row['msg_body'] ?></div>
-                        </div>
+                            <div class="messageWrap">
+                                <div>Добавен на <?= $date ?> за <a style="color: #004276;"
+                                                                   href="books.php?bookID= <?= $row['book_id'] ?>"><?= $row['book_title'] ?></a>
+                                </div>
+                                <div><?= $row['msg_body'] ?></div>
+                            </div>
                         <?php
                         }
                         ?>
