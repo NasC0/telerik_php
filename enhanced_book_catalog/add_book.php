@@ -59,7 +59,6 @@ if (isset($_GET['submit'])) {
             }
             ?>
         </select>
-
         <div>
             <input type="submit" name="submit" value="Добави">
         </div>
